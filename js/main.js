@@ -17,3 +17,4 @@ navBar.forEach(function(a){
 
 
 })
+// portfolio 
