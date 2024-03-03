@@ -24,7 +24,7 @@ body {
   font-family: var(--primary-font);
 }
 
-/* custom css  */
+/*.... custom css..... */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -70,30 +70,12 @@ h3 {
   font-weight: 600;
   margin-bottom: 19px;
 }
-h6 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  display: block;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
 p {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 1px;
   font-weight: 400;
 }
-/* .subtitle{
-  display: inline-block;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  margin-bottom: 12px;
-  background-color: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 input:hover,
 input:focus,
 textarea:hover,
@@ -103,7 +85,7 @@ button {
   box-shadow: none !important;
 }
 
-/* 2 navbar  */
+/*.......navbar......*/
 .nav-logo {
   font-family: "Tangerine", cursive;
   color: var(--black-text);
@@ -158,26 +140,15 @@ button {
 .header-wrapper .nav-item .nav-link:hover {
   color: var(--black-text);
 }
-/* .header-scrolled{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--secodary-color);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.header-scrolled .nav-item .nav-link.active,.header-scrolled .nav-item .nav-link:hover{
-  color: var(--primary-text);
-} */
-/* banner*/
+
+/*....banner....*/
 .banner-wrapper img {
   width: 80%;
   background-color: var(--bg-color);
   border-radius: 50%;
 }
 
-/* 4. services  */
+/*....services....*/
 .services-wrapper {
   background-color: var(--bg-color);
 }
@@ -195,17 +166,14 @@ button {
   align-items: center;
 }
 
-/* about  */
+/*....about....*/
 .about-wrapper img{
   background-color: var(--bg-color);
 }
-.about-wrapper h2 {
-  color: var(--primary-color);
-}
-
-/* portfolio  */
-.portfolio-wrapper h2 {
-  color: var(--primary-color);
+/*...portfolio....*/
+.about-wrapper h2 .portfolio-wrapper h2, .testimonial-wrapper h2 {
+  color: var(--primary-text);
+  margin: auto;
 }
 .carousel-item h5 {
   color: var(--black-text);
@@ -220,10 +188,10 @@ button {
   transform: translateX(-50%);
   text-align: center;
   height: 15%;
-  /* background-color: #012638; */
   backdrop-filter: blur(10px);
 }
-/* footer  */
+
+/*..... footer.........  */
  .left{
   background-color: var(--primary-color);
   padding: 40px 50px;
@@ -240,11 +208,6 @@ button {
   color: #fff;
 }
 /* .............. */
-/* .contact-left {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 40px;
-} */
 .fa-brands {
   color: #000;
   background-color: white;
