@@ -7,15 +7,16 @@
         font-size: 30px;
         line-height: 40px;
     }
-    h2{
+    h3{
         font-size: 20px;
     }
+     /* navbar  */
     .header-scrolled{
         height: auto;
     }
     .header-wrapper .menu-navbar-nav{
         text-align: center;
-        background-color: #a04169a3;
+        background-color: #01263894;
         padding-bottom:15px ;
     }
     .header-wrapper .nav-item .nav-link {
@@ -25,6 +26,17 @@
     .header-wrapper .nav-item .nav-link.active,.header-wrapper .nav-item .nav-link:hover{
         color: var(--black-text)!important;
       }
+      /* portfolio  */
+      .carousel-inner .carousel-caption {
+        height: 25%;
+        padding: 20px 10px;
+      }
+      /* footer  */
+      .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+      }
 }
 @media(max-width:767px){
     /* custom css  */
@@ -32,7 +44,7 @@
         font-size: 40px;
         line-height: 48px;
     }
-    h2{
+    h3{
         font-size: 25px;
     }
     p{
