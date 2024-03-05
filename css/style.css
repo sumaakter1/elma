@@ -53,6 +53,25 @@ section {
   color: var(--black-text);
   border: 2px solid var(--primary-color);
 }
+.hire-btn{
+  display: inline-block;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  border: 2px solid var(--primary-color);
+  padding: 10px 27px;
+  background-color: var(--bg-white);
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.hire-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-text);
+  border: 2px solid var(--primary-color);
+}
 h1 {
   font-size: 54px;
   line-height: 68px;
@@ -191,7 +210,7 @@ button {
   backdrop-filter: blur(10px);
 }
 
-/*..... footer.........  */
+/*..... contact.........  */
  .left{
   background-color: var(--primary-color);
   padding: 40px 50px;
@@ -269,4 +288,9 @@ button {
 }
 .social-media ul li:nth-child(4) a:hover {
   background-color: #0a66c2;
+}
+/* footer  */
+footer{
+  background-color: var(--primary-color);
+  color: var(--white-text);
 }
