@@ -113,7 +113,9 @@ button {
 .nav-logo:hover {
   color: var(--black-text);
 }
-
+.header-wrapper{
+  width: 100%;
+}
 .header-wrapper .navbar {
   padding: 15px 0;
   -webkit-transition: all 0.2s linear;
