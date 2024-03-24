@@ -32,7 +32,7 @@ body {
   background: var(--primary-color);
 }
 section {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .main-btn {
   display: inline-block;
@@ -164,7 +164,7 @@ button {
 .banner-wrapper img {
   width: 80%;
   background-color: var(--bg-color);
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 /*....services....*/
@@ -209,7 +209,19 @@ button {
   height: 15%;
   backdrop-filter: blur(10px);
 }
-
+.accordion .accordion-button{
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+.accordion-button::after{
+  content: "";
+  background-image: url("../images/portfollio/up-arrow.png") !important;
+  color: white;
+}
+.experience-calc{
+  color: var(--primary-color);
+}
 /*..... contact.........  */
  .left{
   background-color: var(--primary-color);
@@ -294,3 +306,5 @@ footer{
   background-color: var(--primary-color);
   color: var(--white-text);
 }
+
+/* ....... */
